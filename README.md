@@ -14,12 +14,14 @@
 ### (1) 사주/mbti/ - 조건 넣고 gpt 답변 생성해 띄우기
 - db 필요없음
 - 조건
-- Reference: 조코딩, 장PM
 
 ### (2) 일정관리 - 일정 매니저. 답변 내용 저장하여 외부 노트 연동 / 이메일 전송
 - db 쓰거나 / 연동이 가능하다면 구글캘린더 등 연동
 
 ### (3) 채용공고 링크/복붙, (선택)LinkedIn 링크/이력 복붙, 예상질문, 모의면접
+
+#### Reference 추천
+- 조코딩, 장피엠, 챗지피터스, https://ktestone.com/kapable.github.io/labelSticker/
 
 ## 4. 계획<br>
 (1) 아이디어 결정 - 5/4까지 (5/3은 reference 찾아보거나 상상 up)<br>
