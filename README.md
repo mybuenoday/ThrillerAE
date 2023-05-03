@@ -2,7 +2,7 @@
  Bien, MJ, Elon
  
 1. 개인 목표 및 역할
-* mj - 웹개발
+* mj - 웹개발 -> python코드로 작성한 함수를 html문서에서 구현
 * Bien - sql db 연결
 
 2. 팀명 Thriller Æ
