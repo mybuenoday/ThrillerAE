@@ -21,6 +21,6 @@
 
 4. 계획<br>
 (1) 아이디어 결정 - 5/4까지 (5/3은 reference 찾아보거나 상상 up)<br>
-(2) ChatGPT api <br>
+(2) 조건 창에 사용자 입력 받아 답변 생성 Python, ChatGPT api <br>
 (3) html, js, css, python <br>
 (4) 이미지 생성(MS Designer 등) 또는 첨부 / 디자인 요소 <br>
