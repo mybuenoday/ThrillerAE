@@ -20,6 +20,6 @@
 - db 쓰거나 / 연동이 가능하다면 구글캘린더 등 연동
 
 4. 계획
-(1) 아이디어 결정 - 5/4까지 (5/3은 reference 찾아보거나 상상 up)
-(2) ChatGPT api 
-(3) html, js, css, python
+##(1) 아이디어 결정 - 5/4까지 (5/3은 reference 찾아보거나 상상 up)
+##(2) ChatGPT api 
+##(3) html, js, css, python
