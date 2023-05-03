@@ -13,11 +13,12 @@
 ## 3. 아이디어 
 ### (1) 사주/mbti/ - 조건 넣고 gpt 답변 생성해 띄우기
 - db 필요없음
-- ChatGPT 입력받을 조건 지정
+- 입력받을 조건 지정
+- ChatGPT에 조건, 어조 부여, 답변 생성
 
 ### (2) 효율적 일정관리 - 일정 매니저. 답변 내용 저장하여 외부 노트 연동 / 이메일 전송
 - db 사용 또는 구글캘린더 등 연동
-- ChagGPt에게 일정관리자 역할 부여. Scheduling Atuomation
+- ChatGPT에게 일정관리자 역할 부여. Scheduling Atuomation
 - Reference: FlowSavvy
 
 ### (3) 채용공고 링크/복붙, (선택)LinkedIn 링크/이력 복붙, 예상질문, 모의면접
