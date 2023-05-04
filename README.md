@@ -38,7 +38,7 @@
 
 ## 앞서
 ### Q. ChatGPT api가 공고 링크를 읽을 수 있는가?
-- N. 외부 링크 접속 불가. (As an AI language model, I do not have the ability to access external websites or links. )
+- 링크드인 링크는 못 불러온다. (As an AI language model, I do not have the ability to access external websites or links. )
 -> 공고글을 직접 복붙해와서 읽게 한다.
 어라. 링크드인 공고 링크는 못 보는데, 회사 홈 공고 링크는 읽네.
 
