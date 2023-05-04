@@ -1,0 +1,22 @@
+참고
+
+%pip install openai
+
+import openai
+
+import getpass
+api_key = getpass.getpass()
+openai.api_key = api_key
+
+text1 = input("my turn : ")
+msg = text1
+
+msg_input = []
+msg_input.append( {"role" : "user", "content" : msg})
+
+response = openai.ChatCompletion.create(
+    model = "gpt-3.5-turbo",
+    messages = msg_input
+)
+
+response.choices[0].message.content
