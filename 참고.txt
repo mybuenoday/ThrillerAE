@@ -20,3 +20,15 @@ response = openai.ChatCompletion.create(
 )
 
 response.choices[0].message.content
+
+
+
+
+
+========================
+
+flask render template
+
+
+웹 형식
+요청한 값 -> chatbot -> 출력
