@@ -63,7 +63,6 @@ Overall, this position appears to be an excellent opportunity for an experienced
 
 ### 2. 영문 공고 받아서 DeepL 또는 Google Translate 사용할 것인가? 한국어 공고를 사용해볼 것인가?
 
-Regenerate response
 
 ## GPT에 입력할 질문
 ### 1. 잡컨설턴트/취업전문가라고 가정
@@ -76,8 +75,10 @@ Make the questions and answers fit to the Position Job Description below: + JD(�
 
 ### ex. Write 10 the expected interview questions and recommended answer as a list with bullet points,
 and gather questions and answers together separately.
-Make the questions and answers fit to the Position Job Description below: https://careers.dyson.com/en-gb/job-description/digital-optimization-analyst/JR18575?source=Linkedin
-- 10 Expected Interview Questions for Digital Optimization Analyst Role:
+Make the questions and answers fit to the Position Job Description below: (입력) https://careers.dyson.com/en-gb/job-description/digital-optimization-analyst/JR18575?source=Linkedin
+
+- GPT 답변 예시:
+10 Expected Interview Questions for Digital Optimization Analyst Role:
 
 What do you know about Dyson and our digital platforms?
 Recommended Answer: Discuss your research on Dyson and their digital platforms, highlighting any experiences you have had using their products or engaging with their digital channels.
@@ -148,7 +149,7 @@ Write 10 the expected interview questions and recommended answer as a list with 
 and gather questions and answers together separately.
 Make the questions and answers fit to this person's experience: + user의 이력서 복붙 입력받기
 
-ex. Questions:
+- GPT 답변 예시: Questions:
 
 Can you tell me about your experience with database queries and building automation?
 How have you used data visualization and analysis in your previous roles?
@@ -175,8 +176,39 @@ One time when I had to improve communication with colleagues and other companies
 ### 4. user의 resume와 지원하려는 JD에 맞춘 예상 질문과 답변 리스트 생성
 Write 10 the expected interview questions and recommended answer as a list with bullet points,
 and gather questions and answers together separately.
-Make the questions and answers fit to this person's experience and the Position Job Description:
+Make the questions and answers fit to  the Position Job Description(https://careers.dyson.com/en-gb/job-description/digital-optimization-analyst/JR18575?source=Linkedin) and  this person's experience below: + 경험
 
+- GPT답변 예시: Expected Interview Questions:
+
+What experience do you have in data analysis and visualization?
+What skills do you have that make you a good fit for the Digital Optimization Analyst position?
+Could you tell me about a time when you had to collect and analyze data to support a team's goals?
+How have you utilized your skills in automation and database queries in your previous roles?
+How do you manage data quality and ensure data accuracy in your work?
+How do you stay up to date with the latest trends and technologies in data analysis and optimization?
+Could you describe a time when you had to work with multiple teams, such as sales, marketing, and data analysis, to achieve a common goal?
+What experience do you have with CRM and ERP systems?
+Could you walk me through your process for generating ad-hoc reports?
+How have you managed shipping samples and proposals in your previous roles?
+Recommended Answers:
+
+In my previous roles as an Operations Specialist and a Data Analyst, I have had the opportunity to work extensively with data analysis and visualization. I have experience generating ad-hoc reports and visualizing data trends to support teams' goals. I am comfortable using tools like Excel, Salesforce, and Veeva for data analysis and visualization.
+
+I believe my skills in database queries and building automation make me a strong fit for the Digital Optimization Analyst position. I have experience managing sales databases, analyzing sales data, and using various tools for data visualization. I am always eager to learn and adopt new technologies that help optimize data analysis and reporting.
+
+In my previous role as an Operations Specialist at Galderma, I worked closely with the sales, marketing, and data analysis teams to evaluate quarterly incentives and track team progress against goals. I collected clinics' weekly digital marketing content and modified events to improve our marketing strategy. I generated ad-hoc sales reports with clinics' sell-out data to help interpret how the sales team is tracking against goals. By analyzing this data, I was able to provide actionable insights to the team to help achieve our common goals.
+
+I have utilized my skills in automation and database queries in several of my previous roles. For example, as a Database Operator at IQVIA, I managed databases and built automation processes to improve data accuracy and efficiency. I have also used various database management tools like Hubdoc and QuickBooks to manage receipts and transactions for bookkeeping clients.
+
+Data quality and accuracy are of utmost importance in my work. To ensure data accuracy, I double-check all data entry and make sure to regularly update databases and CRM systems. I am always on the lookout for any anomalies or errors in the data, and I immediately work to correct them.
+
+To stay up to date with the latest trends and technologies in data analysis and optimization, I regularly read industry publications and attend relevant seminars and workshops. I also enjoy experimenting with new tools and techniques to see how they can improve my work.
+
+Collaboration is key to achieving common goals across teams. In my previous role as an Operations Specialist at Galderma, I worked closely with the sales, marketing, and data analysis teams to evaluate quarterly incentives and track team progress against goals. I collected clinics' weekly digital marketing content and modified events to improve our marketing strategy. By working together, we were able to achieve our common goals and drive sales growth.
+
+I have experience with several CRM and ERP systems, including Salesforce and iScala. I have used these systems to manage shipping samples, handle proposals and expenses, and adjust prices and discount rates.
+
+To generate ad-hoc reports, I typically start by identifying the key data points I need to gather. I then use tools like Excel and Salesforce to gather and analyze the data, and I
 
 ### Rezi.ai (Resumebuiler)
 <Experience>
