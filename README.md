@@ -11,9 +11,10 @@
 * Æ는 인공지능과 사랑을 상징하는 기호로, 라틴 문자 'ash’라고 읽습니다.
 
 ## 3. 아이디어 
-### (3) 채용공고 링크/복붙, (선택)LinkedIn 링크/이력 복붙, 예상질문, 모의면접
+* 채용공고 링크/복붙, (선택)LinkedIn 링크/이력 복붙, 예상질문, 모의면접
 
-####<탈락된 아이디어>
+<details> <summary>탈락된 아이디어</summary>
+<p>
 (1) 사주/mbti/ - 조건 넣고 gpt 답변 생성해 띄우기
 - db 필요없음
 - 입력받을 조건 지정
@@ -25,7 +26,9 @@
 - Reference: FlowSavvy
 #### Reference 추천
 - 조코딩, 장피엠, 챗지피터스, https://ktestone.com/kapable.github.io/labelSticker/
-
+ </p>
+ </details>
+ 
 ## 4. 계획<br>
 (1) 아이디어 결정 - 5/4까지 (5/3은 reference 찾아보거나 상상 up)<br>
 (2) 조건 창에 사용자 입력 받아 답변 생성 Python, ChatGPT api <br>
@@ -43,7 +46,9 @@
 어라. 링크드인 공고 링크는 못 보는데, 회사 홈 공고 링크는 읽네.
 
 ### Q. Linkedin 프로필 링크 읽어들일 수 있는가?
-* LinkedIn을 포함하여 소셜 미디어를 보안의 이유로 읽지 못하는 것 같습니다.
+<details>
+ <summary>* LinkedIn을 포함하여 소셜 미디어를 보안의 이유로 읽지 못하는 것 같다.</summary>
+ <p>
 As an AI language model, I cannot access LinkedIn profiles or any other social media platforms.
 My programming is designed to ensure user privacy and data protection.
 
@@ -60,56 +65,44 @@ The job duties for this position include analyzing user behavior and data to ide
 The job requirements for this position include a strong background in digital analytics and optimization, with experience using tools such as Google Analytics and Adobe Analytics. The ideal candidate should also have experience with A/B testing, personalization, and website optimization. Strong analytical and problem-solving skills are required, along with the ability to communicate complex data and insights to non-technical stakeholders.
 
 Overall, this position appears to be an excellent opportunity for an experienced digital optimization analyst to work with a leading technology company and help drive improvements to the user experience and business performance of Dyson's digital platforms.
-
+ </p>
+ </details>
+ 
 ### 2. 영문 공고 받아서 DeepL 또는 Google Translate 사용할 것인가? 한국어 공고를 사용해볼 것인가?
 
 
-<details>
- <summary>## GPT에 입력할 질문</summary>
- <p>### 1. 잡컨설턴트/취업전문가라고 가정
+## GPT에 입력할 질문</summary>
+ ### 1. 잡컨설턴트/취업전문가라고 가정
 Assume you were a job consultant.
 
 ### 2. 링크 또는 텍스트로 된 JD(공고)를 below: 뒤에 붙여넣고 불렛포인트로 된 10개의 면접 질문 리스트, 질문과 답변 리스트 생성
 Write 10 the expected interview questions and recommended answer as a list with bullet points,
 and gather questions and answers together separately.
-Make the questions and answers fit to the Position Job Description below: + JD(공고) 복붙 입력받기
+Make the questions and answers fit to the Position Job Description below: + JD(채용공고) 복붙 입력받기
 
-### ex. Write 10 the expected interview questions and recommended answer as a list with bullet points,
+<details>
+ <summary>*[예시]</summary>
+ <p>Write 10 the expected interview questions and recommended answer as a list with bullet points,
 and gather questions and answers together separately.
 Make the questions and answers fit to the Position Job Description below: (입력) https://careers.dyson.com/en-gb/job-description/digital-optimization-analyst/JR18575?source=Linkedin
-
-### 3. user의 resume(이력서)를 넣고 질문 생성, 예상 질문과 답변 리스트 생성
-Write 10 the expected interview questions and recommended answer as a list with bullet points,
-and gather questions and answers together separately.
-Make the questions and answers fit to this person's experience: + user의 이력서 복붙 입력받기
-
-### 4. user의 resume와 지원하려는 JD에 맞춘 예상 질문과 답변 리스트 생성
-Write 10 the expected interview questions and recommended answer as a list with bullet points,
-and gather questions and answers together separately.
-Make the questions and answers fit to  the Position Job Description(https://careers.dyson.com/en-gb/job-description/digital-optimization-analyst/JR18575?source=Linkedin) and  this person's experience below: + 경험
  </p>
  </details>
  
+### 3. user의 resume(이력서)를 넣고 질문 생성, 예상 질문과 답변 리스트 생성
+Write 10 the expected interview questions and recommended answer as a list with bullet points,
+and gather questions and answers together separately.
+Make the questions and answers fit to this person's experience: + <b>user의 이력서 복붙 입력받기<b>
+
+### 4. user의 resume와 지원하려는 JD(채용공고)에 맞춘 예상 질문과 답변 리스트 생성
+Write 10 the expected interview questions and recommended answer as a list with bullet points,
+and gather questions and answers together separately.
+Make the questions and answers fit to  the Position Job Description(https://careers.dyson.com/en-gb/job-description/digital-optimization-analyst/JR18575?source=Linkedin) and  this person's experience below: + 경험
+
  
-### Rezi.ai (Resumebuiler)
-<Experience>
-1. What was your **role** at the company? ex. Marketing Analyst
-2. For which **company** did you work? ex. Google
-3. How Long were you with the company? ex. May 2023 - May 2023
-4. WHere was the company located? ex. New York
-5. What did you do at the company? ex. Organized and implemented Google Analytics data tracking campaigns to maximize the effectiveness of email remarketing initiatives that were deployed using Salesforce's marketing cloud software.
-
-<Project>
-1. Give your project a **title**. ex. Volunteer
-2. In which **organization** did you do your project? ex.Habitat for Humanity
-3. **When** did you do your project? ex. May 2023 - May 2023
-4. Now describe what **you did**. ex. Voluteered to help renovate a house and managed a team of 6.
-
-<Education>
-1. **Degree** **Qualification** **major**
-<Certifications>
-<Coursework>
-<Involvement>
-<Skills>
-<Summary>
-
+ # Bing Chat API 이용 가능한가?
+ * y - Bing Chat API 사용가능하다면 한국어 Q&A, 채용공고 웹주소 사용 가능.
+ * n - OpenAI API를 사용하되, 채용공고는 복사 붙여넣기로 입력 받는다.
+![BingChat답변](https://user-images.githubusercontent.com/49604099/237019820-800b2bcd-e1fa-4287-875f-1f7758ab46bf.png)
+![OpenAI답변](https://user-images.githubusercontent.com/49604099/237018571-ea0d0ddf-a184-415d-b411-1995a89b0eff.png)
+ 
+ 
