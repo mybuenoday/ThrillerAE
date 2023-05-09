@@ -64,8 +64,9 @@ Overall, this position appears to be an excellent opportunity for an experienced
 ### 2. 영문 공고 받아서 DeepL 또는 Google Translate 사용할 것인가? 한국어 공고를 사용해볼 것인가?
 
 
-## GPT에 입력할 질문
-### 1. 잡컨설턴트/취업전문가라고 가정
+<details>
+ <summary>## GPT에 입력할 질문</summary>
+ <p>### 1. 잡컨설턴트/취업전문가라고 가정
 Assume you were a job consultant.
 
 ### 2. 링크 또는 텍스트로 된 JD(공고)를 below: 뒤에 붙여넣고 불렛포인트로 된 10개의 면접 질문 리스트, 질문과 답변 리스트 생성
@@ -86,7 +87,8 @@ Make the questions and answers fit to this person's experience: + user의 이력
 Write 10 the expected interview questions and recommended answer as a list with bullet points,
 and gather questions and answers together separately.
 Make the questions and answers fit to  the Position Job Description(https://careers.dyson.com/en-gb/job-description/digital-optimization-analyst/JR18575?source=Linkedin) and  this person's experience below: + 경험
-
+ </p>
+ </details>
 ### Rezi.ai (Resumebuiler)
 <Experience>
 1. What was your **role** at the company? ex. Marketing Analyst
