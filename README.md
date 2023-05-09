@@ -99,10 +99,18 @@ and gather questions and answers together separately.
 Make the questions and answers fit to  the Position Job Description(https://careers.dyson.com/en-gb/job-description/digital-optimization-analyst/JR18575?source=Linkedin) and  this person's experience below: + 경험
 
  
- # Bing Chat API 이용 가능한가?
- * y - Bing Chat API 사용가능하다면 한국어 Q&A, 채용공고 웹주소 사용 가능.
- * n - OpenAI API를 사용하되, 채용공고는 복사 붙여넣기로 입력 받는다.
-![BingChat답변](https://user-images.githubusercontent.com/49604099/237019820-800b2bcd-e1fa-4287-875f-1f7758ab46bf.png)
-![OpenAI답변](https://user-images.githubusercontent.com/49604099/237018571-ea0d0ddf-a184-415d-b411-1995a89b0eff.png)
- 
+# Bing Chat API 이용 가능한가?
+* y - Bing Chat API 사용가능하다면 한국어 Q&A, 채용공고 웹주소 사용 가능.
+* n - OpenAI API를 사용하되, 채용공고는 복사 붙여넣기로 입력 받는다.
+* SK텔레콤 앱 서비스 마케팅 채널 운영 담당자 채용공고로 테스트 https://thecareers.sktelecom.com/Recruit/Detail/3151 
+* Bing Chat 한국어입출력, 웹주소 입력. // 답변 - 성공
+ ![BingChat답변](https://user-images.githubusercontent.com/49604099/237019820-800b2bcd-e1fa-4287-875f-1f7758ab46bf.png)
+* OpenAI 한국어입출력. 한국어 공고 복붙. // 답변 - 성공
+ ![OpenAI답변](https://user-images.githubusercontent.com/49604099/237018571-ea0d0ddf-a184-415d-b411-1995a89b0eff.png)
+* OpenAI 한국어입출력. 웹주소. // 답변 - 실패. 관련없는 답변
+ ![image](https://user-images.githubusercontent.com/49604099/237020937-9cd0ee48-f310-44b5-b47b-3da2eee51819.png)
+* OpenAI 영어질문입력, 한국어출력. 웹주소. // 답변 - 실패. 관련없는 답변
+ ![image](https://user-images.githubusercontent.com/49604099/237021834-1422aaf1-0a59-4993-8bfd-e0022b9d98b6.png)
+
+
  
