@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 면접 예상 질문 답변 </title>
+        <style>
+            body {
+                padding: 50px;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .content {
+                width: 50%;
+                padding: 20px;
+                background-color: #f8f8f8;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                margin-bottom: 20px;
+                overflow: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <label for="text_input">채용공고에 대한 답변</label><br>
+            <pre class="content"> 채용공고에 대한 답변 {{resp}} </pre>
+            <label for="text_input">이력서에 대한 답변</label><br>
+            <pre class="content"> 이력서에 대한 답변 {{resp2}} </pre>
+        </div>
+    </body>
+</html>
