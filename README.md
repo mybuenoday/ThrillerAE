@@ -11,7 +11,8 @@
 * Æ는 인공지능과 사랑을 상징하는 기호로, 라틴 문자 'ash’라고 읽습니다.
 
 ## 3. 아이디어 
-* 채용공고 링크/복붙, (선택)LinkedIn 링크/이력 복붙, 예상질문, 모의면접
+* 채용 공고 링크/ 공고 내용 입력받기, 공고에 대한 면접 예상 질문 & 가능한 답변
+- (Cancelled) LinkedIn 링크/이력 : social media access 불가.
 
 <details> <summary>탈락된 아이디어</summary>
 <p>
@@ -36,14 +37,14 @@
 (4) 이미지 생성(MS Designer 등) 또는 첨부 / 디자인 요소 <br>
 
 -------
-# Questions List
+## 5. Questions List
 공고(Job Description)에 관한 것 + 본인에 대한 것
 
-## 앞서
+## 6. 개발 중 의문점
 ### Q. ChatGPT api가 공고 링크를 읽을 수 있는가?
 - 링크드인 링크는 못 불러온다. (As an AI language model, I do not have the ability to access external websites or links. )
 -> 공고글을 직접 복붙해와서 읽게 한다.
-어라. 링크드인 공고 링크는 못 보는데, 회사 홈 공고 링크는 읽네.
+어라. 링크드인 공고 링크는 못 보는데, 회사 홈 공고 링크는 읽는다.
 
 ### Q. Linkedin 프로필 링크 읽어들일 수 있는가?
 <details>
@@ -68,14 +69,14 @@ Overall, this position appears to be an excellent opportunity for an experienced
  </p>
  </details>
  
-### 2. 영문 공고 받아서 DeepL 또는 Google Translate 사용할 것인가? 한국어 공고를 사용해볼 것인가?
+### Q. 영문 공고 받아서 DeepL 또는 Google Translate 사용할 것인가? 한국어 공고를 사용해볼 것인가?
 
 
-## GPT에 입력할 질문</summary>
- ### 1. 잡컨설턴트/취업전문가라고 가정
+## 7. GPT에 입력할 질문</summary>
+### (1) 잡컨설턴트/취업전문가라고 가정
 Assume you were a job consultant.
 
-### 2. 링크 또는 텍스트로 된 JD(공고)를 below: 뒤에 붙여넣고 불렛포인트로 된 10개의 면접 질문 리스트, 질문과 답변 리스트 생성
+### (2) 링크 또는 텍스트로 된 JD(공고)를 below: 뒤에 붙여넣고 불렛포인트로 된 10개의 면접 질문 리스트, 질문과 답변 리스트 생성
 Write 10 the expected interview questions and recommended answer as a list with bullet points,
 and gather questions and answers together separately.
 Make the questions and answers fit to the Position Job Description below: + JD(채용공고) 복붙 입력받기
@@ -88,18 +89,31 @@ Make the questions and answers fit to the Position Job Description below: (입�
  </p>
  </details>
  
-### 3. user의 resume(이력서)를 넣고 질문 생성, 예상 질문과 답변 리스트 생성
+### (3) user의 resume(이력서)를 넣고 질문 생성, 예상 질문과 답변 리스트 생성
 Write 10 the expected interview questions and recommended answer as a list with bullet points,
 and gather questions and answers together separately.
 Make the questions and answers fit to this person's experience: + <b>user의 이력서 복붙 입력받기<b>
-
-### 4. user의 resume와 지원하려는 JD(채용공고)에 맞춘 예상 질문과 답변 리스트 생성
+- (예시) https://www.linkedin.com/in/yoonjikimkr/details/experience/ 내용 copy & paste
+ 
+### (4) user의 resume와 지원하려는 JD(채용공고)에 맞춘 예상 질문과 답변 리스트 생성
 Write 10 the expected interview questions and recommended answer as a list with bullet points,
 and gather questions and answers together separately.
 Make the questions and answers fit to  the Position Job Description(https://careers.dyson.com/en-gb/job-description/digital-optimization-analyst/JR18575?source=Linkedin) and  this person's experience below: + 경험
 
  
-# Bing Chat API 이용 가능한가?
+
+## 8. 개선점
+### (1) 효율적인 openAI Chatbot의 사용
+- OpenAI API 호출 함수의 효율적인 사용 ➡️ 프로그램 구현시 소모되는 시간 단축
+- API 키의 사용의 제한, 지속적 사용시 authentication error 표시되는 경우, 마찬가지로 효율적인 프로그래밍을 통해 조치
+
+### (2) 영문-국문 번역 library 사용하여 해석 제공
+- $ pip install googletrans # 무료, 무제한
+- $ pip install deepl # key 발급
+
+### (3) Bing Chat API 사용
+- 한국어 Q&A, 채용공고 웹주소 사용 가능
+- Bing Chat API 이용?
 * y - Bing Chat API 사용가능하다면 한국어 Q&A, 채용공고 웹주소 사용 가능.
 * n - OpenAI API를 사용하되, 채용공고는 복사 붙여넣기로 입력 받는다.
 * SK텔레콤 앱 서비스 마케팅 채널 운영 담당자 채용공고로 테스트 https://thecareers.sktelecom.com/Recruit/Detail/3151 
@@ -113,4 +127,3 @@ Make the questions and answers fit to  the Position Job Description(https://care
  ![image](https://user-images.githubusercontent.com/49604099/237021834-1422aaf1-0a59-4993-8bfd-e0022b9d98b6.png)
 
 
- 
