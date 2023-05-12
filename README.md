@@ -1,5 +1,6 @@
 # ThrillerAE
- Bien, MJ, Elon
+ 구성원 - Bien(팀장), MJ, Elon
+ 프로젝트 - openAI ChatBot을 이용하여 입력된 채용공고와 이력정보를 활용한 예상 면접 질문과 답변을 출력해주는 프로그램 제안
  
 ## 1. 개인 목표 및 역할
 * mj - 웹개발 -> python코드로 작성한 함수를 html문서에서 구현, 
